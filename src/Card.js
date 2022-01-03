@@ -4,9 +4,13 @@ const Card = ({ userData }) => {
         <div className="card">
             
             <div className="card__body">
-                <div>Name: {userData.name} </div>
-                <div>Brewery Type: {userData.brewery_type}</div> 
-                <div>City: {userData.city} </div>   
+                <div><b>Name: </b>{userData.name} </div>
+                <div><b>Brewery Type: </b>{userData.brewery_type}</div> 
+                <div><b>City: </b>{userData.city} </div> 
+                <div class="vertical-center">
+                    <button ><b>View</b></button>
+                    
+                </div>
                 
             </div>
 

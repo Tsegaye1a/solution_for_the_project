@@ -5,12 +5,25 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
+  
 }
+.cards-container div {
+  font-size: 1 rem;
+  border: 1px rgb(233, 232, 238) solid;
+  
+  margin-bottom: 0.2rem;
+  transition: all 0.5s ease-out; }
+  .cards-container div:hover {
+    
+    background: #e3e2e9;
+    color: #000; }
+    .boxes div:hover span {
+      color: #000; }
 
 .search-box {
   outline: none;
   width: 100%;
-  border: 1px solid grey;
+  border: 1px solid rgb(155, 140, 3);
   font-size: 1rem;
   padding: 1rem;
   border-radius: .5rem;

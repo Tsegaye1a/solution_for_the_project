@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Search</h1>
+      <h2>Search By Name </h2>
       <input className="search-box" onInput={filterCards} placeholder="Search..."/>
       <div className="cards-container">
 
@@ -39,6 +39,8 @@ function App() {
         ))}
       </div>
     </div>
+
+    
   );
 }
 
